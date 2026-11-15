@@ -110,24 +110,8 @@ The application is structured into three decoupled architectural tiers, visualiz
 
 ---
 
-## ❖ 4. Visual Showcase: Dual-Dimensional Experience
 
-<div align="center">
-
-### ☼ Light Mode (Warm Beige & Burnt Orange) vs. ☾ Dark Mode (Near Black & Soft Violet)
-
-| Light Perspective (Scandinavian Editorial) | Dark Perspective (Restrained Violet) |
-|:---:|:---:|
-| **Overview Dashboard**<br>![Overview Light](assets/screenshots/overview_light.png) | **Overview Dashboard**<br>![Overview Dark](assets/screenshots/overview_dark.png) |
-| **Interactive Calculator**<br>![Calculator Light](assets/screenshots/calculator_light.png) | **Interactive Calculator**<br>![Calculator Dark](assets/screenshots/calculator_dark.png) |
-| **Measurement History Log**<br>![History Light](assets/screenshots/history_light.png) | **Analytical Trajectory**<br>![Trends Dark](assets/screenshots/trends_dark.png) |
-| **Analytical Trajectory**<br>![Trends Light](assets/screenshots/trends_light.png) | **System Administration & Settings**<br>![Settings Light](assets/screenshots/settings_light.png) |
-
-</div>
-
----
-
-## ❖ 5. Technology Stack & Specifications
+## ❖ 4. Technology Stack & Specifications
 
 <div align="center">
 
@@ -146,7 +130,7 @@ The application is structured into three decoupled architectural tiers, visualiz
 
 ---
 
-## ❖ 6. Mathematical Model & Clinical Boundaries
+## ❖ 5. Mathematical Model & Clinical Boundaries
 
 ### Mathematical Formulation
 
@@ -182,7 +166,7 @@ $$\text{Weight}_{\text{min}} = 18.5 \times h^2 \qquad\text{and}\qquad \text{Weig
 
 ---
 
-## ❖ 7. Database Entity Relationship Model
+## ❖ 6. Database Entity Relationship Model
 
 The local SQLite relational engine enforces strict referential integrity:
 
@@ -218,7 +202,7 @@ erDiagram
 
 ---
 
-## ❖ 8. Installation & Setup Guide
+## ❖ 7. Installation & Setup Guide
 
 ### System Prerequisites
 - **Operating System**: Windows 10 or Windows 11 (64-bit recommended)
@@ -248,7 +232,7 @@ pip install -r requirements.txt
 
 ---
 
-## ❖ 9. Running the Application
+## ❖ 8. Running the Application
 
 Launch the desktop interface via Python:
 
@@ -264,7 +248,7 @@ On first launch:
 
 ---
 
-## ❖ 10. Automated Testing Matrix (50 / 50 Passing)
+## ❖ 9. Automated Testing Matrix (50 / 50 Passing)
 
 Run the automated test suite with verbose reporting:
 
@@ -289,7 +273,7 @@ python -m pytest tests/ -v
 
 ---
 
-## ❖ 11. Windows Standalone Executable Packaging
+## ❖ 10. Windows Standalone Executable Packaging
 
 To generate a standalone Windows `.exe` that runs on any computer without Python installed:
 
@@ -310,7 +294,7 @@ dist/BMI_Wellness_Tracker/BMI_Wellness_Tracker.exe
 
 ---
 
-## ❖ 12. Privacy, Security & Data Sovereignty
+## ❖ 11. Privacy, Security & Data Sovereignty
 
 - **Zero Cloud Leakage**: No telemetry, analytics, or external requests.
 - **Local SQLite Storage**: All health data remains exclusively on the user's hard drive.
@@ -320,7 +304,7 @@ dist/BMI_Wellness_Tracker/BMI_Wellness_Tracker.exe
 
 ---
 
-## ❖ 13. Troubleshooting & FAQ
+## ❖ 12. Troubleshooting & FAQ
 
 <details>
 <summary><b>▶ View Troubleshooting Common Scenarios</b></summary>
@@ -338,7 +322,7 @@ dist/BMI_Wellness_Tracker/BMI_Wellness_Tracker.exe
 
 ---
 
-## ❖ 14. Author & Internship Information
+## ❖ 13. Author & Internship Information
 
 <div align="center">
 
