@@ -1,337 +1,454 @@
+
 <div align="center">
 
-```text
-  ██████╗ ███╗   ███╗██╗    ████████╗██████╗  █████╗  ██████╗██╗  ██╗███████╗██████╗ 
-  ██╔══██╗████╗ ████║██║    ╚══██╔══╝██╔══██╗██╔══██╗██╔════╝██║ ██╔╝██╔════╝██╔══██╗
-  ██████╔╝██╔████╔██║██║       ██║   ██████╔╝███████║██║     █████╔╝ █████╗  ██████╔╝
-  ██╔══██╗██║╚██╔╝██║██║       ██║   ██╔══██╗██╔══██║██║     ██╔═██╗ ██╔══╝  ██╔══██╗
-  ██████╔╝██║ ╚═╝ ██║██║       ██║   ██║  ██║██║  ██║╚██████╗██║  ██╗███████╗██║  ██║
-  ╚═════╝ ╚═╝     ╚═╝╚═╝       ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
-```
+<img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:F3EDE3,50:C8793C,100:302060&fontColor=29251F&text=BMI%20%26%20WELLNESS&fontSize=48&fontAlignY=38&desc=TRACK%20YOUR%20HEALTH.%20UNDERSTAND%20YOUR%20PROGRESS.&descSize=13&descAlignY=60" width="100%"/>
 
-### ❖ 3D EDITORIAL HEALTH & BODY MASS INDEX TRACKING PLATFORM ❖
-*Minimalist Scandinavian Design • 100% Offline Sovereign Engine • Dual Dimensional Themes*
+# BMI & WELLNESS TRACKER
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.10+" />
-  <img src="https://img.shields.io/badge/Tkinter-Modern_ttk-FF6F00?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="Tkinter" />
-  <img src="https://img.shields.io/badge/Database-SQLite3_ACID-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite3" />
-  <img src="https://img.shields.io/badge/Analytics-Matplotlib_Vector-11557C?style=for-the-badge&logo=scipy&logoColor=white" alt="Matplotlib" />
-  <img src="https://img.shields.io/badge/Quality-50_Tests_Passed-2EA44F?style=for-the-badge&logo=pytest&logoColor=white" alt="50 Tests Passed" />
-  <img src="https://img.shields.io/badge/Platform-Windows_10%2F11-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows 10/11" />
-</p>
+### A Minimalist Desktop Health Analytics Platform
 
----
+**Measure · Monitor · Understand · Improve**
+
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&duration=3000&pause=1000&color=C8793C&center=true&vCenter=true&width=700&lines=Offline-First+Health+Tracking;Multi-User+Profile+Management;Historical+BMI+Analytics;Secure+Local+SQLite+Database;Minimalist+Dual-Theme+Interface"/>
+
+<br/>
+
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Tkinter](https://img.shields.io/badge/GUI-Tkinter-FF6F00?style=for-the-badge)](https://docs.python.org/3/library/tkinter.html)
+[![SQLite](https://img.shields.io/badge/Database-SQLite3-003B57?style=for-the-badge&logo=sqlite)](https://www.sqlite.org/)
+[![Matplotlib](https://img.shields.io/badge/Analytics-Matplotlib-11557C?style=for-the-badge)](https://matplotlib.org/)
+[![Tests](https://img.shields.io/badge/Tests-50%2F50_PASSED-2EA44F?style=for-the-badge&logo=pytest)]()
+[![License](https://img.shields.io/badge/License-MIT-9B59B6?style=for-the-badge)]()
 
 </div>
 
-## ❖ 1. Dimensional Project Overview
+---
 
-The **BMI & Wellness Tracker** (`ArnavSharma_Task2`) is an offline-first, production-grade desktop application engineered in Python. It provides high-precision Body Mass Index (BMI) screening, multi-user isolation, historical telemetry tracking, and integrated Matplotlib trend analytics.
+<div align="center">
 
-Departing from conventional card-cluttered SaaS layouts, the system is designed around an **editorial-style, Scandinavian-inspired floating layout philosophy**:
-- **Dimensional Layering**: Open-canvas space, floating typographical statistics, and thin hairline dividers replacing boxed card grids.
-- **Dual Visual Identities**:
-  - **Light Mode (Default)**: Warm Beige (`#F3EDE3`) canvas, Burnt Orange (`#C8793C`) interactive accents, and charcoal typography (`#29251F`).
-  - **Dark Mode**: Near-Black (`#111014`) canvas, Soft Violet (`#A987F5`) accents, and luminous text (`#F2EFF7`).
-- **100% Offline Data Sovereignty**: Operates without external APIs, tracking cookies, or cloud databases. All data remains on the user's local disk in an ACID-compliant SQLite3 database.
+## ◈ THE PROJECT
+
+</div>
+
+**BMI & Wellness Tracker** (`ArnavSharma_Task2`) is an offline-first Python desktop application designed to make personal health tracking simple, structured, and insightful.
+
+The application combines accurate BMI calculations, WHO-based classification, multi-user profiles, persistent SQLite storage, historical measurement tracking, and Matplotlib-powered analytics.
+
+Unlike conventional dashboard-heavy applications, the interface follows a **minimalist Scandinavian editorial design philosophy**, emphasizing whitespace, typography, floating statistics, and subtle visual hierarchy.
+
+### Design Philosophy
+
+| Light Mode | Dark Mode |
+|:---:|:---:|
+| Warm Beige `#F3EDE3` | Near Black `#111014` |
+| Burnt Orange `#C8793C` | Soft Violet `#A987F5` |
+| Charcoal `#29251F` | Luminous `#F2EFF7` |
 
 ---
 
-## ❖ 2. 3D Isometric Architectural Slabs
+## ◈ 01 — CORE FEATURES
 
-The application is structured into three decoupled architectural tiers, visualized as stacked dimensional slabs:
+<div align="center">
+
+### Everything You Need to Track Your Wellness
+
+</div>
+
+| Feature | Description |
+|:---|:---|
+| BMI Calculator | Accurate BMI computation using weight and height |
+| WHO Classification | Underweight, Normal, Overweight and Obese categories |
+| Multi-User Profiles | Create, select, rename and delete user profiles |
+| Measurement History | Track historical BMI and measurement records |
+| Analytics Dashboard | Floating statistics and measurement comparisons |
+| BMI Trend Charts | Matplotlib-powered historical visualizations |
+| Date Filtering | 30 days, 90 days, yearly and all-time history |
+| CSV Export | Export measurement records to spreadsheets |
+| Database Backup | One-click SQLite backup and restoration |
+| Dual Themes | Warm Beige / Burnt Orange and Black / Violet |
+| High-DPI Support | Crisp rendering on high-resolution displays |
+| Automated Testing | 50 automated tests covering application functionality |
+
+---
+
+## ◈ 02 — 3D SYSTEM ARCHITECTURE
+
+<div align="center">
+
+### Three-Layer Architectural Design
+
+</div>
 
 ```text
-                      ┌────────────────────────────────────────────────────────┐
-                     ╱                     PRESENTATION SLAB                  ╱│
-                    ╱        (Tkinter • ttk • High-DPI Engine • Themes)      ╱ │
-                   ┌────────────────────────────────────────────────────────┐  │
-                   │  Overview     Calculator     History       Trends      │  │
-                   │ (Hero Stats) (Scale Bar)   (CSV Table)  (Matplotlib)   │  │
-                   │────────────────────────────────────────────────────────│  │
-                   │   Profiles Manager          Settings & Disaster Recovery│ │
-                   └────────────────────────────────────────────────────────┘  │
-                     │                                                        ││
-                     │ (State Dispatch / Observers)                           ││
-                     ▼                                                        ││
-                      ┌────────────────────────────────────────────────────────┐
-                     ╱                    ORCHESTRATION SLAB                  ╱│
-                    ╱         (Domain Business Logic • Validation Engine)    ╱ │
-                   ┌────────────────────────────────────────────────────────┐  │
-                   │  • BMIService: WHO Mathematical Classification Engine  │  │
-                   │  • AppState: Global Observer Event Broker & Multi-User  │  │
-                   │  • InputValidators: Millimeter & Centimetre Safeguards │  │
-                   │  • ExportService: Formatted RFC-4180 CSV Generators    │  │
-                   │  • BackupService: Live Hot Online SQLite Backups       │  │
-                   └────────────────────────────────────────────────────────┘  │
-                     │                                                        ││
-                     │ (ACID Transactions / Parameterized Queries)            ││
-                     ▼                                                        ││
-                      ┌────────────────────────────────────────────────────────┐
-                     ╱                    PERSISTENCE SLAB                    ╱│
-                    ╱             (SQLite3 Relational Storage Engine)        ╱ │
-                   ┌────────────────────────────────────────────────────────┐  │
-                   │  • PRAGMA foreign_keys = ON; (Referential Integrity)   │  │
-                   │  • Users Table (Unique Constraints & Cascade Deletes)  │  │
-                   │  • BMI Records Table (Indexed on user_id, recorded_at) │  │
-                   │  • Schema Versioning (schema_version migration ledger) │  │
-                   └────────────────────────────────────────────────────────┘  │
-                     │                                                         │
-                     └─────────────────────────────────────────────────────────┘
+                  ┌───────────────────────────────────┐
+                 ╱       PRESENTATION LAYER          ╱│
+                ╱───────────────────────────────────╱ │
+               │                                     │ │
+               │  OVERVIEW     CALCULATOR            │ │
+               │  HISTORY      TRENDS                │ │
+               │  PROFILES     SETTINGS              │ │
+               │                                     │ │
+               └───────────────────────────────────┘  │
+                 │                                     │
+                 ▼                                     │
+                  ┌───────────────────────────────────┐
+                 ╱      ORCHESTRATION LAYER          ╱│
+                ╱───────────────────────────────────╱ │
+               │                                     │ │
+               │  BMIService                        │ │
+               │  AppState                          │ │
+               │  InputValidators                   │ │
+               │  ExportService                     │ │
+               │  BackupService                     │ │
+               │                                     │ │
+               └───────────────────────────────────┘  │
+                 │                                     │
+                 ▼                                     │
+                  ┌───────────────────────────────────┐
+                 ╱        PERSISTENCE LAYER          ╱│
+                ╱───────────────────────────────────╱ │
+               │                                     │ │
+               │  SQLite3 Database                  │ │
+               │  Users & BMI Records               │ │
+               │  Referential Integrity             │ │
+               │  Schema Versioning                 │ │
+               │                                     │ │
+               └───────────────────────────────────┘
 ```
 
 ---
 
-## ❖ 3. Primary Objectives & Implemented Capabilities
-
-### ✦ Beginner Tier Mandates
-- [x] **Metric Weight Input**: Accurately accepts body weight in kilograms (`kg`) with physiological bound validation.
-- [x] **Metric Height Input**: Accurately accepts stature in metres (`m`) with automatic detection and guidance against centimetre confusion.
-- [x] **Reusable Mathematical Function**: Encapsulated in isolated, tested `calculate_bmi(weight, height)` routine.
-- [x] **Strict WHO Categorization**: Uses exact unrounded BMI values across boundaries:
-  - **Below 18.5**: *Underweight*
-  - **18.5 – 24.9**: *Normal*
-  - **25.0 – 29.9**: *Overweight*
-  - **30.0 and above**: *Obese*
-- [x] **Display Formatting**: Rounded to two decimal places (`f"{bmi:.2f}"`), with semantic color badges, weight, height, and timestamp.
-- [x] **Input Validation**: Rejects empty strings, alphabetical characters, non-positive numbers, and physiological extremes without crashing.
-
-### ✦ Advanced Tier Mandates
-- [x] **Native Desktop GUI**: Fully constructed with Tkinter and themed ttk (`clam` engine) without command-line dependencies.
-- [x] **Multi-User Profile Management**: Complete profile lifecycle (create, select, rename, delete) using stable integer keys (`user_id`).
-- [x] **Persistent SQLite3 Database**: `data/bmi_records.db` with schema versioning, transactional context managers, and cascading deletes.
-- [x] **Measurement History Management**: Tabular log with date-range presets (30 days, 90 days, year, all), chronological sorting, single-record deletion, and CSV export.
-- [x] **Matplotlib Visualisation**: Integrated `FigureCanvasTkAgg` with theme-synchronized palettes, normal zone reference bands, and data markers.
-- [x] **Dashboard Analytics**: Floating hero stats, previous measurement comparison, delta calculation, recent records, and trajectory preview.
-- [x] **Disaster Recovery**: One-click database backups and integrity-checked restorations with pre-restore safeguard snapshots.
-- [x] **Bimodal Theming**: Light Mode (Warm Beige/Burnt Orange) and Dark Mode (Near Black/Soft Violet) with live observer notifications.
-- [x] **Automated Testing**: 50 automated tests covering calculation precision, edge boundaries, SQLite CRUD, service layers, and GUI workflows.
-
----
-
-
-## ❖ 4. Technology Stack & Specifications
+## ◈ 03 — TECHNOLOGY STACK
 
 <div align="center">
 
-| Domain | Technology | Implementation Details |
+<img src="https://skillicons.dev/icons?i=python,sqlite,git,github,vscode&theme=dark"/>
+
+</div>
+
+| Component | Technology | Purpose |
 |:---|:---|:---|
-| **Language Runtime** | **Python 3.10 – 3.13** | Strict typing, standard library prioritization, PEP 8 styling. |
-| **GUI Framework** | **Tkinter + ttk** | Custom clam ttk style mapping, dynamic event listeners, smooth scrolling. |
-| **Display Engine** | **Windows ctypes (shcore)** | Per-Monitor High-DPI scaling enabled for crisp 4K typography. |
-| **Database Engine** | **SQLite3** | ACID transactions, foreign keys enabled (`PRAGMA foreign_keys = ON;`). |
-| **Data Visualization** | **Matplotlib (TkAgg)** | Native vector canvas, theme-synchronized palettes, zero web wrappers. |
-| **Data Export** | **Python csv** | RFC-4180 standard formatted spreadsheets with metadata headers. |
-| **Test Automation** | **pytest 8.3+** | Unit tests, edge case assertions, SQLite fixtures, GUI lifecycle tests. |
-| **Binary Packaging** | **PyInstaller 5.13+** | Standalone Windows executable bundling with dynamic path resolution. |
-
-</div>
-
----
-
-## ❖ 5. Mathematical Model & Clinical Boundaries
-
-### Mathematical Formulation
-
-Body Mass Index is computed using Quetelet's metric equation:
-
-$$\text{BMI} = \frac{\text{Weight (kg)}}{[\text{Height (m)}]^2}$$
-
-Where:
-- $\text{Weight}$ is measured in kilograms ($kg$).
-- $\text{Height}$ is measured in metres ($m$).
-
-#### Healthy Weight Boundary Derivation
-
-For an individual of height $h$, the healthy weight range corresponding to standard WHO normal BMI boundaries ($18.5 \le \text{BMI} \le 24.9$) is determined by:
-
-$$\text{Weight}_{\text{min}} = 18.5 \times h^2 \qquad\text{and}\qquad \text{Weight}_{\text{max}} = 24.9 \times h^2$$
-
-### Standard WHO Classification Table
-
-<div align="center">
-
-| BMI Range | Classification | Editorial Guidance | Semantic Color (Light / Dark) |
-|:---:|:---:|:---|:---:|
-| **< 18.5** | **Underweight** | Below standard reference range. Focus on nutrient-dense foods and gradual strength. | Slate Blue (`#3E7291` / `#68A8D6`) |
-| **18.5 – 24.9** | **Normal** | Within healthy reference range. Maintain balanced physical activity and vitality. | Sage Green (`#3F7A54` / `#68C488`) |
-| **25.0 – 29.9** | **Overweight** | Above standard reference range. Daily movement and metabolic balance recommended. | Burnt Orange (`#C8793C` / `#F5A358`) |
-| **≥ 30.0** | **Obese** | Elevated reference range. Structured lifestyle habits and professional health guidance suggested. | Terracotta Red (`#AD3D2B` / `#E36859`) |
-
-</div>
-
-> [!IMPORTANT]
-> **Boundary Precision Safeguard**: The application evaluates the **unrounded floating-point BMI** for categorization to avoid classification rounding anomalies at thresholds (e.g. `24.996` correctly categorizes as `Normal` even though it formats as `25.00` for display).
+| Language | Python 3.10–3.13 | Core application |
+| GUI | Tkinter + ttk | Desktop interface |
+| Database | SQLite3 | Persistent local storage |
+| Visualization | Matplotlib | BMI trend analytics |
+| GUI Charts | FigureCanvasTkAgg | Matplotlib integration |
+| Data Export | Python CSV | RFC-4180 compliant exports |
+| Testing | pytest 8.3+ | Automated testing |
+| Packaging | PyInstaller | Standalone executable |
+| High-DPI | Windows ctypes | Display scaling |
 
 ---
 
-## ❖ 6. Database Entity Relationship Model
+## ◈ 04 — BMI MATHEMATICAL MODEL
 
-The local SQLite relational engine enforces strict referential integrity:
+BMI is calculated using the Quetelet Index:
+
+\[
+BMI = \frac{Weight\ (kg)}{Height\ (m)^2}
+\]
+
+### WHO Classification
+
+| BMI Range | Classification |
+|:---:|:---|
+| Below 18.5 | Underweight |
+| 18.5 – 24.9 | Normal |
+| 25.0 – 29.9 | Overweight |
+| 30.0 and above | Obese |
+
+### Healthy Weight Calculation
+
+For a given height:
+
+\[
+W_{min}=18.5\times h^2
+\]
+
+\[
+W_{max}=24.9\times h^2
+\]
+
+**Precision safeguard:** Classification uses the unrounded BMI value to prevent incorrect categorization caused by display rounding.
+
+> Note: BMI is a screening measure, not a standalone medical diagnosis.
+
+---
+
+## ◈ 05 — DATABASE ARCHITECTURE
+
+The application uses SQLite3 with relational integrity and persistent local storage.
 
 ```mermaid
 erDiagram
-    USERS ||--o{ BMI_RECORDS : "maintains"
+    USERS ||--o{ BMI_RECORDS : maintains
+
     USERS {
-        INTEGER user_id PK "AUTOINCREMENT"
-        TEXT username UK "UNIQUE, NOT NULL"
-        TEXT created_at "ISO-8601 Timestamp"
+        INTEGER user_id PK
+        TEXT username UK
+        TEXT created_at
     }
+
     BMI_RECORDS {
-        INTEGER record_id PK "AUTOINCREMENT"
-        INTEGER user_id FK "REFERENCES USERS(user_id) ON DELETE CASCADE"
-        REAL weight "Weight in kg"
-        REAL height "Height in metres"
-        REAL bmi "Computed BMI index"
-        TEXT category "WHO Category label"
-        TEXT recorded_at "ISO-8601 Timestamp"
+        INTEGER record_id PK
+        INTEGER user_id FK
+        REAL weight
+        REAL height
+        REAL bmi
+        TEXT category
+        TEXT recorded_at
     }
+
     SCHEMA_VERSION {
-        INTEGER version PK "1"
-        TEXT applied_at "ISO-8601 Timestamp"
-        TEXT notes "Schema migration notes"
+        INTEGER version PK
+        TEXT applied_at
+        TEXT notes
     }
 ```
 
-### Referential Integrity Guarantees
-- **Cascading Deletion**: Deleting a profile automatically purges all child records (`ON DELETE CASCADE`).
-- **Orphan Prevention**: Foreign keys reject inserting records with invalid or missing `user_id` values.
-- **Transactional Safety**: All insert, update, and delete operations execute inside atomic context-managed transactions (`BEGIN ... COMMIT / ROLLBACK`).
-- **Dynamic Path Detection**: Resolves paths dynamically whether running as source or bundled in a frozen PyInstaller binary.
+### Database Engineering
+
+- ACID-compliant transactions.
+- Foreign key enforcement.
+- Parameterized SQL queries.
+- Cascading profile deletion.
+- Schema versioning and migration support.
+- Indexed measurement records.
+- Transactional backup and restoration.
 
 ---
 
-## ❖ 7. Installation & Setup Guide
+## ◈ 06 — PROJECT STRUCTURE
 
-### System Prerequisites
-- **Operating System**: Windows 10 or Windows 11 (64-bit recommended)
-- **Python**: Version 3.10, 3.11, 3.12, or 3.13
-
-### Step 1: Open PowerShell and Navigate to Workspace
-```powershell
-cd "c:\Users\Arnav Sharma\Desktop\Resume\Internship\Oaisis Info Tech Python Programming\ArnavSharma_Task2"
+```text
+ArnavSharma_Task2/
+│
+├── main.py
+├── config.py
+├── build_executable.py
+├── requirements.txt
+├── README.md
+├── LICENSE
+│
+├── data/
+│   ├── bmi_records.db
+│   └── app.log
+│
+├── assets/
+│   └── screenshots/
+│
+├── modules/
+│   ├── bmi.py
+│   ├── database.py
+│   ├── validation.py
+│   ├── services.py
+│   └── gui.py
+│
+└── tests/
+    ├── test_bmi.py
+    ├── test_validation.py
+    ├── test_database.py
+    ├── test_services.py
+    └── test_gui.py
 ```
 
-### Step 2: Initialize Virtual Environment
+*Directory structure illustrates the major application components; adjust it if your actual repository uses different filenames.*
+
+---
+
+## ◈ 07 — INSTALLATION
+
+### Prerequisites
+
+- Windows 10 / Windows 11
+- Python 3.10, 3.11, 3.12 or 3.13
+- pip package manager
+
+### Step 1 — Clone Repository
+
+```powershell
+git clone https://github.com/ArnavSharma-IND/ArnavSharma_Task2.git
+
+cd ArnavSharma_Task2
+```
+
+### Step 2 — Create Virtual Environment
+
 ```powershell
 python -m venv venv
 ```
 
-### Step 3: Activate Environment
+### Step 3 — Activate Environment
+
 ```powershell
 .\venv\Scripts\Activate.ps1
 ```
-*(If execution policies restrict script activation, run: `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass`)*
 
-### Step 4: Install Dependencies
+If execution policies restrict activation:
+
+```powershell
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
+
+### Step 4 — Install Dependencies
+
 ```powershell
 pip install --upgrade pip
+
 pip install -r requirements.txt
 ```
 
 ---
 
-## ❖ 8. Running the Application
+## ◈ 08 — LAUNCH APPLICATION
 
-Launch the desktop interface via Python:
+Start the desktop application:
 
 ```powershell
 python main.py
 ```
 
-On first launch:
-1. `data/bmi_records.db` is initialized automatically.
-2. A default profile named `Primary User` is created.
-3. Loads the default **Light Mode (Warm Beige & Burnt Orange)**.
-4. Centers the main window (`1120x740`) with high-DPI font rendering.
+### First Launch
+
+1. Initializes the local SQLite database.
+2. Creates the default `Primary User` profile.
+3. Loads the Warm Beige and Burnt Orange theme.
+4. Initializes the desktop interface.
+5. Enables measurement tracking and analytics.
 
 ---
 
-## ❖ 9. Automated Testing Matrix (50 / 50 Passing)
+## ◈ 09 — TESTING & QUALITY ASSURANCE
 
-Run the automated test suite with verbose reporting:
+<div align="center">
+
+<img src="https://img.shields.io/badge/TESTS-50%2F50_PASSED-2EA44F?style=for-the-badge&logo=pytest&logoColor=white"/>
+
+### Automated Testing Matrix
+
+</div>
+
+| Test Suite | Tests | Coverage |
+|:---|:---:|:---|
+| BMI Calculation | 13 | Formula, precision, WHO boundaries |
+| Input Validation | 17 | Weight, height, usernames, dates |
+| Database | 11 | CRUD, foreign keys, transactions |
+| Services | 6 | Profiles, CSV, backups |
+| GUI | 3 | Window lifecycle, tabs, themes |
+| **TOTAL** | **50** | **100% Passed** |
+
+Run the test suite:
 
 ```powershell
 python -m pytest tests/ -v
 ```
 
-<details open>
-<summary><b>▶ Click to View Verified Test Coverage Breakdown (50 Tests)</b></summary>
-<br>
-
-| Test Suite File | Test Count | Scope of Verification | Status |
-|:---|:---:|:---|:---:|
-| `tests/test_bmi.py` | 13 | Core formula math, precision, WHO boundaries, healthy range derivation | **PASSED** |
-| `tests/test_validation.py` | 17 | Weight limits (10–500 kg), height limits (0.5–3.0 m), cm detector, usernames, dates | **PASSED** |
-| `tests/test_database.py` | 11 | Isolated SQLite CRUD, foreign keys, cascade deletes, date range queries | **PASSED** |
-| `tests/test_services.py` | 6 | Multi-user isolation, editorial insights, CSV export, backup & rollback | **PASSED** |
-| `tests/test_gui.py` | 3 | Tkinter window lifecycle, tab transitions (all 6 views), theme toggle | **PASSED** |
-| **Total Verified** | **50** | **Full System Integration & Unit Assurance** | **100% PASS** |
-
-</details>
-
 ---
 
-## ❖ 10. Windows Standalone Executable Packaging
+## ◈ 10 — STANDALONE WINDOWS EXECUTABLE
 
-To generate a standalone Windows `.exe` that runs on any computer without Python installed:
+Package the application into a standalone Windows executable.
 
-### Automated Packaging (One-Click)
+### Automated Build
+
 ```powershell
 python build_executable.py
 ```
 
-### Manual PyInstaller Command
+### Manual PyInstaller Build
+
 ```powershell
 pyinstaller --noconfirm --onedir --windowed --name "BMI_Wellness_Tracker" --add-data "assets;assets" main.py
 ```
 
-The resulting standalone executable will be located in:
+Output:
+
 ```text
-dist/BMI_Wellness_Tracker/BMI_Wellness_Tracker.exe
+dist/
+└── BMI_Wellness_Tracker/
+    └── BMI_Wellness_Tracker.exe
 ```
 
 ---
 
-## ❖ 11. Privacy, Security & Data Sovereignty
+## ◈ 11 — PRIVACY & DATA SOVEREIGNTY
 
-- **Zero Cloud Leakage**: No telemetry, analytics, or external requests.
-- **Local SQLite Storage**: All health data remains exclusively on the user's hard drive.
-- **SQL Injection Prevention**: 100% parameterized queries (`?`).
-- **Sanitized Logging**: Operational logs in `data/app.log` exclude private health details.
-- **Full User Control**: Users can back up, export to CSV, or wipe their profile data at any time.
+Privacy is a core architectural principle.
 
----
-
-## ❖ 12. Troubleshooting & FAQ
-
-<details>
-<summary><b>▶ View Troubleshooting Common Scenarios</b></summary>
-<br>
-
-| Issue | Root Cause | Resolution |
-|:---|:---|:---|
-| **Matplotlib Cache Warning** | Non-writable default directory | Automatically handled: `config.py` redirects `MPLCONFIGDIR` to a writable temp path. |
-| **Blurry Fonts on 4K Monitors** | Windows display scaling | Automatically handled: `main.py` enables Per-Monitor DPI awareness via `ctypes`. |
-| **"Cannot delete the only profile"** | System integrity constraint | The system requires at least one profile to prevent orphaned state. Create a second profile first. |
-| **Centimetre Input Rejected** | Height expected in metres | Enter height in metres (e.g. `1.78` instead of `178`). The validator provides an automatic hint. |
-| **Database Locked Error** | External process reading `.db` | Close external SQLite viewers; the app manages its own connections with proper timeouts. |
-
-</details>
+- **100% Offline Operation:** No external APIs or cloud dependencies.
+- **Local Data Ownership:** All health records remain on the local machine.
+- **SQL Injection Protection:** Parameterized SQL queries.
+- **Sanitized Logging:** Sensitive health information is excluded from operational logs.
+- **Backup & Recovery:** Local database backup and restoration.
+- **User Control:** Export or delete profile data.
 
 ---
 
-## ❖ 13. Author & Internship Information
+## ◈ 12 — FUTURE ENHANCEMENTS
+
+| Enhancement | Status |
+|:---|:---:|
+| Advanced Health Analytics | Planned |
+| Custom Measurement Goals | Planned |
+| Extended Wellness Reports | Planned |
+| Additional Data Visualization | Planned |
+
+---
+
+## ◈ 13 — SCREENSHOTS
 
 <div align="center">
 
-**Author**: Arnav Sharma  
-**Task**: ArnavSharma_Task2 – Premium BMI & Wellness Tracker  
-**Program**: Oasis Infobyte Python Programming Internship  
-**Repository**: `ArnavSharma_Task2`  
-**License**: [MIT](LICENSE)
+### Application Interface
 
-*Crafted with attention to engineering precision and minimalist design.*
+<!-- Replace these placeholders with actual screenshots -->
+
+<img src="https://placehold.co/900x480/F3EDE3/C8793C?text=BMI+WELLNESS+TRACKER+-+LIGHT+MODE" width="90%" alt="Light Mode Preview"/>
+
+**LIGHT MODE — Warm Beige & Burnt Orange**
+
+<br/><br/>
+
+<img src="https://placehold.co/900x480/111014/A987F5?text=BMI+WELLNESS+TRACKER+-+DARK+MODE" width="90%" alt="Dark Mode Preview"/>
+
+**DARK MODE — Near Black & Soft Violet**
+
+</div>
+
+---
+
+## ◈ 14 — DEVELOPER
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=110&color=0:F3EDE3,100:C8793C&text=ARNAV%20SHARMA&fontSize=38&fontColor=29251F&fontAlignY=55"/>
+
+### Arnav Sharma
+
+**Computer Science & Artificial Intelligence**
+
+<br/>
+
+[![GitHub](https://img.shields.io/badge/GitHub-ArnavSharma--IND-181717?style=for-the-badge&logo=github)](https://github.com/ArnavSharma-IND)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/arnav-sharma-dev/)
+
+<br/>
+
+**Project:** ArnavSharma_Task2
+
+**Program:** Oasis Infobyte Python Programming Internship
+
+**Task:** BMI & Wellness Tracker
+
+**License:** MIT
+
+<br/>
+
+*Engineered with precision. Designed with simplicity.*
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:F3EDE3,50:C8793C,100:302060&section=footer"/>
 
 </div>
