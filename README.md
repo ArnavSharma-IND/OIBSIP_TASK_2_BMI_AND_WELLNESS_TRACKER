@@ -176,11 +176,11 @@ BMI = \frac{Weight\ (kg)}{Height\ (m)^2}
 For a given height:
 
 
-W_min=18.5/h^2
+W_min=18.5*h^2
 
 
 
-W_max=24.9/h^2
+W_max=24.9*h^2
 
 
 **Precision safeguard:** Classification uses the unrounded BMI value to prevent incorrect categorization caused by display rounding.
