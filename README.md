@@ -1,9 +1,21 @@
-
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:F3EDE3,50:C8793C,100:302060&fontColor=29251F&text=BMI%20%26%20WELLNESS&fontSize=48&fontAlignY=38&desc=TRACK%20YOUR%20HEALTH.%20UNDERSTAND%20YOUR%20PROGRESS.&descSize=13&descAlignY=60" width="100%"/>
+<h1> BMI & WELLNESS TRACKER </h1>
 
-# BMI & WELLNESS TRACKER
+<h3> A Minimalist Desktop Health Analytics Platform </h3>
+
+<p>
+Measure · Monitor · Understand · Improve
+</p>
+
+<img src="https://img.shields.io/badge/PYTHON-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/SQLITE-LOCAL_DATABASE-003B57?style=for-the-badge&logo=sqlite"/>
+<img src="https://img.shields.io/badge/TESTS-50%2F50_PASSED-2EA44F?style=for-the-badge"/>
+
+</div>
+
+---
+
 
 ### A Minimalist Desktop Health Analytics Platform
 
