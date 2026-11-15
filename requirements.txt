@@ -1,0 +1,7 @@
+# BMI & Wellness Tracker Dependencies
+# Standard libraries used where possible (tkinter, sqlite3, csv, json, datetime, math)
+
+matplotlib>=3.7.0
+pillow>=9.0.0
+pytest>=7.0.0
+pyinstaller>=5.13.0
